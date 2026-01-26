@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/Blueprints/Enemy/BP_Enemy1.uasset",
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/Levels/Level1.umap",
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/AI/BTService_LocatePlayer.uasset",
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/AI/BP_BB1.uasset",
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/AI/BP_BT1.uasset",
+				"E:/Repositorios/Rep/FinalProj_ModBP/FinalProjUE5BP/Content/AI/BTTask_MoveToPlayer.uasset",
 				"D:/Repositorios/FinalProjUE5BP/FinalProj_ModBP/FinalProjUE5BP/Content/Models/low-poly-cowboy/source/SK_Cowboy.uasset",
 				"D:/Repositorios/FinalProjUE5BP/FinalProj_ModBP/FinalProjUE5BP/Content/Models/low-poly-cowboy/source/SKM_Cowboy.uasset",
 				"D:/Repositorios/FinalProjUE5BP/FinalProj_ModBP/FinalProjUE5BP/Content/Animations/Enemy/Material_002.uasset",
