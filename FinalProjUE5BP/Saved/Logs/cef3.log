@@ -1,2 +1,0 @@
-[0129/201839.120:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Chave inválida para uso no estado especificado. (0x8009000B)
-[0129/202039.467:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
