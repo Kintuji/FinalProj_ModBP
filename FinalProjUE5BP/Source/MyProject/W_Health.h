@@ -15,8 +15,8 @@ class MYPROJECT_API UW_Health : public UUserWidget
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(editAnywhere,BlueprintReadWrite, Category = "Health", meta = (BindWidget))
-	TObjectPtr<UProgressBar> HealthProgressBar;
+	//UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Health", meta = (BindWidget))
+	//TObjectPtr<UProgressBar> HealthProgressBar;
 	//UProgressBar* HealthProgressBar = nullptr;
 };
 

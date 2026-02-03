@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AMyActor *****************************************************************
 MYPROJECT_API UClass* Z_Construct_UClass_AMyActor_NoRegister();
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyActor(); \
 	friend struct Z_Construct_UClass_AMyActor_Statics; \
@@ -27,10 +27,11 @@ private: \
 	friend MYPROJECT_API UClass* Z_Construct_UClass_AMyActor_NoRegister(); \
 public: \
 	DECLARE_CLASS2(AMyActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MyProject"), Z_Construct_UClass_AMyActor_NoRegister) \
-	DECLARE_SERIALIZER(AMyActor)
+	DECLARE_SERIALIZER(AMyActor) \
+	virtual UObject* _getUObject() const override { return const_cast<AMyActor*>(this); }
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AMyActor(AMyActor&&) = delete; \
 	AMyActor(const AMyActor&) = delete; \
@@ -40,12 +41,12 @@ public: \
 	NO_API virtual ~AMyActor();
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_9_PROLOG
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_12_GENERATED_BODY \
+#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_10_PROLOG
+#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

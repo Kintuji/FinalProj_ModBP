@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Widgets/W_HealthWidget.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Levels/Level1.umap"
+			]
+		}
+	]
+}

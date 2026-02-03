@@ -1,5 +1,14 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.MyProject.gen.cpp.obj": [
+			"HealthComponenteCPP.gen.cpp.obj",
+			"MyActor.gen.cpp.obj",
+			"MyPlayerController.gen.cpp.obj",
+			"HealthWidget.gen.cpp.obj",
+			"I_Interactable.gen.cpp.obj",
+			"MyProject.init.gen.cpp.obj",
+			"W_Health.gen.cpp.obj"
+		]
 	}
 }

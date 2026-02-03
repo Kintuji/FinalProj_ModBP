@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeMyActor() {}
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 MYPROJECT_API UClass* Z_Construct_UClass_AMyActor();
 MYPROJECT_API UClass* Z_Construct_UClass_AMyActor_NoRegister();
+MYPROJECT_API UClass* Z_Construct_UClass_UI_Interactable_NoRegister();
 UPackage* Z_Construct_UPackage__Script_MyProject();
 // ********** End Cross Module References **********************************************************
 
@@ -60,6 +61,7 @@ struct Z_Construct_UClass_AMyActor_Statics
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
+	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyActor>::IsAbstract,
 	};
@@ -70,6 +72,9 @@ UObject* (*const Z_Construct_UClass_AMyActor_Statics::DependentSingletons[])() =
 	(UObject* (*)())Z_Construct_UPackage__Script_MyProject,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMyActor_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AMyActor_Statics::InterfaceParams[] = {
+	{ Z_Construct_UClass_UI_Interactable_NoRegister, (int32)VTABLE_OFFSET(AMyActor, II_Interactable), false },  // 977556928
+};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_AMyActor_Statics::ClassParams = {
 	&AMyActor::StaticClass,
 	"Engine",
@@ -77,11 +82,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMyActor_Statics::Class
 	DependentSingletons,
 	nullptr,
 	nullptr,
-	nullptr,
+	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
 	0,
-	0,
+	UE_ARRAY_COUNT(InterfaceParams),
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyActor_Statics::Class_MetaDataParams), Z_Construct_UClass_AMyActor_Statics::Class_MetaDataParams)
 };
@@ -101,10 +106,10 @@ AMyActor::~AMyActor() {}
 struct Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMyActor, AMyActor::StaticClass, TEXT("AMyActor"), &Z_Registration_Info_UClass_AMyActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActor), 546107373U) },
+		{ Z_Construct_UClass_AMyActor, AMyActor::StaticClass, TEXT("AMyActor"), &Z_Registration_Info_UClass_AMyActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyActor), 2495991397U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h__Script_MyProject_178135190(TEXT("/Script/MyProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h__Script_MyProject_2333050172(TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_MyActor_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

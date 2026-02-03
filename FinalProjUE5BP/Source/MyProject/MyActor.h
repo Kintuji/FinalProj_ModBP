@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "I_Interactable.h"
 #include "GameFramework/Actor.h"
 #include "MyActor.generated.h"
 
 UCLASS()
-class MYPROJECT_API AMyActor : public AActor
+class MYPROJECT_API AMyActor : public AActor, public II_Interactable
 {
 	GENERATED_BODY()
 	
