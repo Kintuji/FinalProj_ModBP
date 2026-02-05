@@ -19,7 +19,7 @@ class MYPROJECT_API UHealthWidget : public UUserWidget
 public:
 	virtual void NativeConstruct() override;
 	
-	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = "Health", meta = (BindWidget))
+	UPROPERTY(BlueprintReadWrite, Category = "Health", meta = (BindWidget))
 	TObjectPtr<UProgressBar> HealthProgressBar;
 	//UProgressBar* HealthProgressBar = nullptr;
 

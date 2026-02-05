@@ -7,6 +7,8 @@
         "Includes": [
             "c:\\users\\aluno\\documents\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
             "c:\\users\\aluno\\documents\\finalproj_modbp\\finalprojue5bp\\source\\myproject\\myactor.h",
+            "c:\\users\\aluno\\documents\\finalproj_modbp\\finalprojue5bp\\source\\myproject\\i_interactable.h",
+            "c:\\users\\aluno\\documents\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\i_interactable.generated.h",
             "c:\\users\\aluno\\documents\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myactor.generated.h"
         ],
         "ImportedModules": [],
