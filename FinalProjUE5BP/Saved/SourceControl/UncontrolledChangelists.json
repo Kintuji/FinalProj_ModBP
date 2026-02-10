@@ -6,7 +6,16 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Widgets/W_HealthWidget.uasset",
-				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Levels/Level1.umap"
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Levels/Level1.umap",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/AI/BP_AIController1.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Blueprints/Enemy/BP_Enemy1.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/AI/TypeOfAI.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/AI/TargetPoint1.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Input/IA_Attack.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Input/IMC_BaseMapping.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Blueprints/Player/BP_BaseCharacter.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/Player/ABP_Player.uasset",
+				"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Content/AI/TargetPoint2.uasset"
 			]
 		}
 	]
