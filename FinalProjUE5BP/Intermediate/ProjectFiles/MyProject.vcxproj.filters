@@ -70,6 +70,12 @@
     <ClInclude Include="..\..\Source\MyProject\MyProject.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\PlayerAttack.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\PlayerAttack.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MyProject\W_Health.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>

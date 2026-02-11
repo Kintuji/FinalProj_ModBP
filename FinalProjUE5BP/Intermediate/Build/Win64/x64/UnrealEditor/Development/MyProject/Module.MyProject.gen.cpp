@@ -4,5 +4,4 @@
 #include "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT/I_Interactable.gen.cpp"
 #include "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT/MyActor.gen.cpp"
 #include "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT/MyPlayerController.gen.cpp"
-#include "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT/MyProject.init.gen.cpp"
 #include "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/UnrealEditor/Inc/MyProject/UHT/W_Health.gen.cpp"
