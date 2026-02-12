@@ -6,8 +6,10 @@
 /NAME:"UnrealEditor-MyProject.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.gen.cpp.obj"
+"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.init.gen.cpp.obj"
+"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/PlayerAttack.gen.cpp.obj"
 "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HealthComponenteCPP.cpp.obj"
 "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HealthWidget.cpp.obj"
 "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/I_Interactable.cpp.obj"

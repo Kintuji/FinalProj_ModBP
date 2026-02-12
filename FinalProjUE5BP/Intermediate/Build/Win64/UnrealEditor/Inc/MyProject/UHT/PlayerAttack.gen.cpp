@@ -12,6 +12,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerAttack() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 MYPROJECT_API UClass* Z_Construct_UClass_UPlayerAttack();
 MYPROJECT_API UClass* Z_Construct_UClass_UPlayerAttack_NoRegister();
@@ -21,14 +23,26 @@ UPackage* Z_Construct_UPackage__Script_MyProject();
 // ********** Begin Class UPlayerAttack Function Raycast *******************************************
 struct Z_Construct_UFunction_UPlayerAttack_Raycast_Statics
 {
+	struct PlayerAttack_eventRaycast_Parms
+	{
+		UClass* DetectableCharacterClass;
+	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "PlayerAttack.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FClassPropertyParams NewProp_DetectableCharacterClass;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UPlayerAttack, nullptr, "Raycast", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::NewProp_DetectableCharacterClass = { "DetectableCharacterClass", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerAttack_eventRaycast_Parms, DetectableCharacterClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::NewProp_DetectableCharacterClass,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UPlayerAttack, nullptr, "Raycast", Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PropPointers), sizeof(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PlayerAttack_eventRaycast_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UPlayerAttack_Raycast_Statics::PlayerAttack_eventRaycast_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UPlayerAttack_Raycast()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -40,9 +54,10 @@ UFunction* Z_Construct_UFunction_UPlayerAttack_Raycast()
 }
 DEFINE_FUNCTION(UPlayerAttack::execRaycast)
 {
+	P_GET_OBJECT(UClass,Z_Param_DetectableCharacterClass);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->Raycast();
+	P_THIS->Raycast(Z_Param_DetectableCharacterClass);
 	P_NATIVE_END;
 }
 // ********** End Class UPlayerAttack Function Raycast *********************************************
@@ -97,7 +112,7 @@ struct Z_Construct_UClass_UPlayerAttack_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPlayerAttack_Raycast, "Raycast" }, // 1308939510
+		{ &Z_Construct_UFunction_UPlayerAttack_Raycast, "Raycast" }, // 478358106
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -141,10 +156,10 @@ UPlayerAttack::~UPlayerAttack() {}
 struct Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPlayerAttack, UPlayerAttack::StaticClass, TEXT("UPlayerAttack"), &Z_Registration_Info_UClass_UPlayerAttack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerAttack), 3487791547U) },
+		{ Z_Construct_UClass_UPlayerAttack, UPlayerAttack::StaticClass, TEXT("UPlayerAttack"), &Z_Registration_Info_UClass_UPlayerAttack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerAttack), 3481458510U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_276338517(TEXT("/Script/MyProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_3890103742(TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

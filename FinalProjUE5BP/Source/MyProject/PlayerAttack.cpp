@@ -3,9 +3,10 @@
 
 #include "PlayerAttack.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
-#include "Runtime/AIModule/Classes/AIController.h"
+
 
 // Sets default values for this component's properties
 UPlayerAttack::UPlayerAttack()
@@ -36,26 +37,41 @@ void UPlayerAttack::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 	// ...
 }
 
-void UPlayerAttack::Raycast()
+void UPlayerAttack::Raycast(UClass* DetectableCharacterClass)
 {
-	FVector start = GetOwner()->GetActorLocation();
-	FVector forward = GetOwner()->GetActorForwardVector();
-	//start = FVector(start.X + (forward.X * 50), start.Y + (forward.Y * 50), start.Z + (forward.Z * 50));	
-	FVector end = start + 50;
-	
-	FHitResult hit;
+	if (!GetWorld()) return;
 
-	//FVector rotation = VectorNormalizeQuaternion(forward.Equals());
-	
-	if (GetWorld())
+	FVector Start = GetOwner()->GetActorLocation();
+	FVector Forward = GetOwner()->GetActorForwardVector();
+	float Distance = 1000.f;
+	Start = Start + Forward * 50;
+
+	FVector End = Start + (Forward * Distance);
+
+	FHitResult Hit;
+
+	bool bActorHit = GetWorld()->LineTraceSingleByChannel(
+		Hit,
+		Start,
+		End,
+		ECC_Pawn
+	);
+
+	// Draw full straight line
+	DrawDebugLine(GetWorld(), Start, End, FColor::Purple, false, 1.f, 0, 2.f);
+
+	if (bActorHit && Hit.GetActor())
 	{
-		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, start, end,ECC_Pawn, FCollisionQueryParams(),FCollisionResponseParams());
-		DrawDebugLine(GetWorld(), start, hit.Location, FColor(255, 0, 255), false, 1, 0, 1);
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, Hit.GetActor()->GetName());
 
-		if (actorHit && hit.GetActor())
+		if (IsValid(DetectableCharacterClass) &&
+			Hit.GetActor()->IsA(DetectableCharacterClass))
 		{
-			GEngine->AddOnScreenDebugMessage(-1,2,FColor::Red,hit.GetActor()->GetName());
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, TEXT("Enemy Detected"));
 		}
 	}
 }
+
+
+
 

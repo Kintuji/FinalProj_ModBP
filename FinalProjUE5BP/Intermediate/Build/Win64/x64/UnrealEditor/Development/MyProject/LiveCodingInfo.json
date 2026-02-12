@@ -7,8 +7,9 @@
 			"I_Interactable.gen.cpp.obj",
 			"MyActor.gen.cpp.obj",
 			"MyPlayerController.gen.cpp.obj",
+			"W_Health.gen.cpp.obj",
 			"MyProject.init.gen.cpp.obj",
-			"W_Health.gen.cpp.obj"
+			"PlayerAttack.gen.cpp.obj"
 		]
 	}
 }
