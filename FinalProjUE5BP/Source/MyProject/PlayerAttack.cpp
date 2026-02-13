@@ -2,6 +2,8 @@
 
 
 #include "PlayerAttack.h"
+
+#include "Damageable.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"
 #include "Engine/World.h"
@@ -64,9 +66,13 @@ void UPlayerAttack::Raycast(UClass* DetectableCharacterClass)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, Hit.GetActor()->GetName());
 
-		if (IsValid(DetectableCharacterClass) &&
-			Hit.GetActor()->IsA(DetectableCharacterClass))
+		if (IsValid(DetectableCharacterClass) && Hit.GetActor()->IsA(DetectableCharacterClass))
 		{
+			AActor* EnemyActor = Hit.GetActor();
+
+			if (EnemyActor->Implements<UDamageable>())
+			
+			OnAttackTriggered.BindUFunction(this, FName("Raycast"));
 			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, TEXT("Enemy Detected"));
 		}
 	}

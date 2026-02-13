@@ -8,6 +8,7 @@
 			"MyActor.gen.cpp.obj",
 			"MyPlayerController.gen.cpp.obj",
 			"W_Health.gen.cpp.obj",
+			"Damageable.gen.cpp.obj",
 			"MyProject.init.gen.cpp.obj",
 			"PlayerAttack.gen.cpp.obj"
 		]

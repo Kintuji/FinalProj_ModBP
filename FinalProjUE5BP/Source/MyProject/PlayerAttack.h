@@ -24,6 +24,12 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	DECLARE_DYNAMIC_DELEGATE(FOnAttackTriggeredSignature);
+	
+
+	UPROPERTY(EditAnywhere)
+	FOnAttackTriggeredSignature OnAttackTriggered;
+	
 	UFUNCTION(BlueprintCallable)
 	void Raycast(UClass* DetectableCharacterClass);
 

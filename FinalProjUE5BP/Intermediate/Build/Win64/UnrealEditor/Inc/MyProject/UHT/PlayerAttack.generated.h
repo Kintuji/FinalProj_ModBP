@@ -18,6 +18,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 class UObject;
 
+// ********** Begin Delegate FOnAttackTriggeredSignature *******************************************
+#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_27_DELEGATE \
+static void FOnAttackTriggeredSignature_DelegateWrapper(const FScriptDelegate& OnAttackTriggeredSignature);
+
+
+// ********** End Delegate FOnAttackTriggeredSignature *********************************************
+
 // ********** Begin Class UPlayerAttack ************************************************************
 #define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execRaycast);
