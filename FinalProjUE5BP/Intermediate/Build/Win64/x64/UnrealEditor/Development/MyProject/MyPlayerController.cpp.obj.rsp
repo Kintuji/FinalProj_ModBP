@@ -1,12 +1,12 @@
-"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Source/MyProject/MyPlayerController.cpp"
-@"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.Shared.rsp"
-/FI"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
-/FI"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Definitions.MyProject.h"
-/Yu"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
-/Fp"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.pch"
-/Fo"C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.obj"
-/experimental:log "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.sarif"
-/sourceDependencies "C:/Users/Aluno/Documents/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.dep.json"
+"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Source/MyProject/MyPlayerController.cpp"
+@"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.Shared.rsp"
+/FI"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Definitions.MyProject.h"
+/Yu"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.obj"
+/experimental:log "C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.sarif"
+/sourceDependencies "C:/Users/tiago/Documents/GitHub/FinalProj_ModBP/FinalProjUE5BP/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyPlayerController.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

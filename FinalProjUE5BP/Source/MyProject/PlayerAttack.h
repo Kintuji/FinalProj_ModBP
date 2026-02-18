@@ -33,6 +33,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Raycast(UClass* DetectableCharacterClass);
 
+	void FireEffects();
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> FireVFX;
+
 private:
 	
 };

@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttack() {}
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 MYPROJECT_API UClass* Z_Construct_UClass_UPlayerAttack();
 MYPROJECT_API UClass* Z_Construct_UClass_UPlayerAttack_NoRegister();
@@ -140,8 +141,13 @@ struct Z_Construct_UClass_UPlayerAttack_Statics
 		{ "Category", "PlayerAttack" },
 		{ "ModuleRelativePath", "PlayerAttack.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireVFX_MetaData[] = {
+		{ "Category", "PlayerAttack" },
+		{ "ModuleRelativePath", "PlayerAttack.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FDelegatePropertyParams NewProp_OnAttackTriggered;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_FireVFX;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -155,8 +161,10 @@ struct Z_Construct_UClass_UPlayerAttack_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FDelegatePropertyParams Z_Construct_UClass_UPlayerAttack_Statics::NewProp_OnAttackTriggered = { "OnAttackTriggered", nullptr, (EPropertyFlags)0x0010000000080001, UECodeGen_Private::EPropertyGenFlags::Delegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerAttack, OnAttackTriggered), Z_Construct_UDelegateFunction_UPlayerAttack_OnAttackTriggeredSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnAttackTriggered_MetaData), NewProp_OnAttackTriggered_MetaData) }; // 789188297
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UPlayerAttack_Statics::NewProp_FireVFX = { "FireVFX", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerAttack, FireVFX), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireVFX_MetaData), NewProp_FireVFX_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerAttack_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttack_Statics::NewProp_OnAttackTriggered,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttack_Statics::NewProp_FireVFX,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttack_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UPlayerAttack_Statics::DependentSingletons[])() = {
@@ -192,14 +200,14 @@ UPlayerAttack::~UPlayerAttack() {}
 // ********** End Class UPlayerAttack **************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics
+struct Z_CompiledInDeferFile_FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPlayerAttack, UPlayerAttack::StaticClass, TEXT("UPlayerAttack"), &Z_Registration_Info_UClass_UPlayerAttack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerAttack), 703375248U) },
+		{ Z_Construct_UClass_UPlayerAttack, UPlayerAttack::StaticClass, TEXT("UPlayerAttack"), &Z_Registration_Info_UClass_UPlayerAttack, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerAttack), 498832195U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_1834596751(TEXT("/Script/MyProject"),
-	Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_1450240592(TEXT("/Script/MyProject"),
+	Z_CompiledInDeferFile_FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

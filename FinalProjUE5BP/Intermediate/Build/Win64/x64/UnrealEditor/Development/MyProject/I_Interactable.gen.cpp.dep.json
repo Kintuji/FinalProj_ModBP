@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\tiago\\documents\\github\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\i_interactable.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tiago\\documents\\github\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\tiago\\documents\\github\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\tiago\\documents\\github\\finalproj_modbp\\finalprojue5bp\\source\\myproject\\i_interactable.h",
+            "c:\\users\\tiago\\documents\\github\\finalproj_modbp\\finalprojue5bp\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\i_interactable.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

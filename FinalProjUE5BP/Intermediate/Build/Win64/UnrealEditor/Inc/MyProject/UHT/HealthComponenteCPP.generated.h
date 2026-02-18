@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UHealthComponenteCPP *****************************************************
 MYPROJECT_API UClass* Z_Construct_UClass_UHealthComponenteCPP_NoRegister();
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponenteCPP(); \
 	friend struct Z_Construct_UClass_UHealthComponenteCPP_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponenteCPP)
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UHealthComponenteCPP(UHealthComponenteCPP&&) = delete; \
 	UHealthComponenteCPP(const UHealthComponenteCPP&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UHealthComponenteCPP();
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_10_PROLOG
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_GENERATED_BODY \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_10_PROLOG
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class UHealthComponenteCPP;
 // ********** End Class UHealthComponenteCPP *******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h
+#define CURRENT_FILE_ID FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthComponenteCPP_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,8 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Aluno\\Documents\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProject\\MyProject.Build.cs",
-		"C:\\Users\\Aluno\\Documents\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProject.Target.cs",
-		"C:\\Users\\Aluno\\Documents\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProjectEditor.Target.cs"
+		"C:\\Users\\tiago\\Documents\\GitHub\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProject\\MyProject.Build.cs",
+		"C:\\Users\\tiago\\Documents\\GitHub\\FinalProj_ModBP\\FinalProjUE5BP\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"C:\\Users\\tiago\\Documents\\GitHub\\FinalProj_ModBP\\FinalProjUE5BP\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
+		"C:\\Users\\tiago\\Documents\\GitHub\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProject.Target.cs",
+		"C:\\Users\\tiago\\Documents\\GitHub\\FinalProj_ModBP\\FinalProjUE5BP\\Source\\MyProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }

@@ -19,20 +19,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UObject;
 
 // ********** Begin Delegate FOnAttackTriggeredSignature *******************************************
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_27_DELEGATE \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_27_DELEGATE \
 static void FOnAttackTriggeredSignature_DelegateWrapper(const FScriptDelegate& OnAttackTriggeredSignature);
 
 
 // ********** End Delegate FOnAttackTriggeredSignature *********************************************
 
 // ********** Begin Class UPlayerAttack ************************************************************
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execRaycast);
 
 
 MYPROJECT_API UClass* Z_Construct_UClass_UPlayerAttack_NoRegister();
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayerAttack(); \
 	friend struct Z_Construct_UClass_UPlayerAttack_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerAttack)
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UPlayerAttack(UPlayerAttack&&) = delete; \
 	UPlayerAttack(const UPlayerAttack&) = delete; \
@@ -53,13 +53,13 @@ public: \
 	NO_API virtual ~UPlayerAttack();
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_10_PROLOG
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_GENERATED_BODY \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_10_PROLOG
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -69,6 +69,6 @@ class UPlayerAttack;
 // ********** End Class UPlayerAttack **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h
+#define CURRENT_FILE_ID FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_PlayerAttack_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

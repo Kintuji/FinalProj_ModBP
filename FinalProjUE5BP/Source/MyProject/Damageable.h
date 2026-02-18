@@ -22,7 +22,12 @@ class MYPROJECT_API IDamageable
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	virtual void MoveBackwards();
-	virtual void TakeDamage();
-	virtual void Attack();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void MoveBackwards();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void TakeDamage(float damage);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void Attack();
 };

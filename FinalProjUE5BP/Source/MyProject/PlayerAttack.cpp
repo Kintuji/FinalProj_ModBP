@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "PlayerAttack.h"
@@ -59,7 +59,8 @@ void UPlayerAttack::Raycast(UClass* DetectableCharacterClass)
 		ECC_Pawn
 	);
 
-	// Draw full straight line
+	FireEffects();
+	
 	DrawDebugLine(GetWorld(), Start, End, FColor::Purple, false, 1.f, 0, 2.f);
 
 	if (bActorHit && Hit.GetActor())
@@ -68,15 +69,42 @@ void UPlayerAttack::Raycast(UClass* DetectableCharacterClass)
 
 		if (IsValid(DetectableCharacterClass) && Hit.GetActor()->IsA(DetectableCharacterClass))
 		{
+			AActor* Enemy = Hit.GetActor();
+			if (Enemy && Enemy->Implements<UDamageable>())
+			{
+				IDamageable::Execute_MoveBackwards(Enemy); // ✅ pass the UObject (Actor)
+			}
+
+			/*
 			AActor* EnemyActor = Hit.GetActor();
 
 			if (EnemyActor->Implements<UDamageable>())
+			{
+				OnAttackTriggered.BindUFunction(this, FName("Raycast"));
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, TEXT("Enemy Detected"));
+
+			}
+			*/
 			
-			OnAttackTriggered.BindUFunction(this, FName("Raycast"));
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Yellow, TEXT("Enemy Detected"));
 		}
 	}
 }
+
+void UPlayerAttack::FireEffects()
+{
+	if (!FireVFX || !GetWorld()) return;
+
+	const FVector Start = GetOwner()->GetActorLocation() + GetOwner()->GetActorForwardVector() * 50.f;
+	const FVector Dir = GetOwner()->GetActorForwardVector();
+	const FRotator Rot = Dir.Rotation();
+
+	AActor* Vfx = GetWorld()->SpawnActor<AActor>(FireVFX, Start, Rot);
+	if (Vfx)
+	{
+		Vfx->SetLifeSpan(2.0f);
+	}
+}
+
 
 
 

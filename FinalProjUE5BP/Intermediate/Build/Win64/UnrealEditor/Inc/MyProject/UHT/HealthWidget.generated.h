@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UHealthWidget ************************************************************
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execSetHealthText); \
 	DECLARE_FUNCTION(execSetHealth);
 
 
 MYPROJECT_API UClass* Z_Construct_UClass_UHealthWidget_NoRegister();
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthWidget(); \
 	friend struct Z_Construct_UClass_UHealthWidget_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthWidget)
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -47,13 +47,13 @@ public: \
 	NO_API virtual ~UHealthWidget();
 
 
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_14_PROLOG
-#define FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_GENERATED_BODY \
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_14_PROLOG
+#define FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,6 +63,6 @@ class UHealthWidget;
 // ********** End Class UHealthWidget **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Aluno_Documents_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h
+#define CURRENT_FILE_ID FID_Users_tiago_Documents_GitHub_FinalProj_ModBP_FinalProjUE5BP_Source_MyProject_HealthWidget_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
